@@ -1,1 +1,14 @@
+#include <iostream>
 
+int main()
+{
+
+int a=8;
+int b=11;
+
+a=a*b; //vesszük a két szám szorzatát
+b=a/b; //ezt a szorzatot elosztjuk b vel így b=a	
+a=a/b; //a szorzatot elosztjuk a értékével ami most b
+
+std::cout<<"a= "<<a<<" b= "<<b<<std::endl;
+}
