@@ -1,0 +1,15 @@
+
+#include <iostream>
+
+int main()
+{
+
+int a=8;
+int b=11;
+
+a=a^b; //XOR művelet az "a" és "b" bitjein
+b=a^b; //XOR művelet az így kapott "a" bitjein "b"-vel, "b" egyenlő lesz eredeti a-val	
+a=a^b; //XOR művelet az első "a" XOR "b" eredményén b vel így a egyenlő lesz b-vel
+
+std::cout<<"a= "<<a<<" b= "<<b<<std::endl;
+}
